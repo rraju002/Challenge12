@@ -54,6 +54,5 @@ So that I can organize and plan my business
   - [Project Repo](insert repo)
 
 ## Contributions
-1. ![GitHub license]()
-2. No front end files required.
-3. use seed.sql to create an existing table to pull sample information from to make it easier to run through the app.
+1. No front end files required.
+2. use seed.sql to create an existing table to pull sample information from to make it easier to run through the app.
