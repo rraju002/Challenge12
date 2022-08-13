@@ -5,17 +5,18 @@ CREATE DATABASE employeesDB;
 USE employeesDB;
 
 CREATE TABLE department (
-  id INT NOT NULL AUTO_INCREMENT,
+  id INT AUTO_INCREMENT PRIMARY KEY,
   name VARCHAR(45) NULL,
   PRIMARY KEY (id)
 );
 
 CREATE TABLE role (
-  id INT NOT NULL AUTO_INCREMENT,
+  id INT AUTO_INCREMENT PRIMARY KEY,
   title VARCHAR(45) NULL,
   salary DECIMAL(10.3) NULL,
-  department_id INT NULL,
+  department_id INT NOT NULL,
   PRIMARY KEY (id)
+   FOREIGN KEY (department_id) REFERENCES departments(id)
 );
 
 CREATE TABLE employee (
