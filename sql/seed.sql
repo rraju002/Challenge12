@@ -1,38 +1,24 @@
-USE employeesDB;
+INSERT INTO departments (dep_name)
+VALUES 
+("")
+("")
+("")
+("")
+("")
 
-INSERT INTO department (name)
-VALUES ("Sales");
-INSERT INTO department (name)
-VALUES ("Engineering");
-INSERT INTO department (name)
-VALUES ("Finance");
-INSERT INTO department (name)
-VALUES ("Legal");
+INSERT INTO roles (title,salary, department_id)
+VALUES
+("Sales Representative", 35000, 4),
+("Sales Supervisor", 50000, 4),
+("Lead Engineer", 250000, 1),
+("Software Engineer", 100000, 1),
+("Human Resources Rep", 60000, 2),
+("Junior Software Engineer", 54000, 2),
+("Human Resources Lead", 65000, 3),
+("Manager", 60000, 1);
 
-INSERT INTO role (title, salary, department_id)
-VALUES ("Sales Lead", 100000, 1);
-INSERT INTO role (title, salary, department_id)
-VALUES ("Lead Engineer", 150000, 2);
-INSERT INTO role (title, salary, department_id)
-VALUES ("Software Engineer", 120000, 2);
-INSERT INTO role (title, salary, department_id)
-VALUES ("Accountant", 125000, 3);
-INSERT INTO role (title, salary, department_id)
-VALUES ("Legal Team Lead", 250000, 4);
-
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("Jane", "Doe", 1, 3);
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("Norah", "Rios", 2, 1);
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("Kate", "Mellor", 3, null);
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("Shiv", "Betts", 4, 3);
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("Leen", "Hurst", 5, null);
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("Gary", "Leer", 2, null);
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("Tom", "Cruise", 4, 7);
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("Daisy", "Hooper", 1, 2);
+INSERT INTO employees (first_name, last_name, role_id manager_id)
+VALUES
+("Rhowen", "Raju", 3, NULL),
+("Nate", "McIlvenny", 4, 1),
+("Omar ", "Patel", 4, 1);
