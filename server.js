@@ -1,5 +1,5 @@
 //dependencies required
-const mysql = require("mysql");
+const mysql = require("mysql2");
 const inquirer = require("inquirer");
 require("console.table");
 //const sql = require("./sql");

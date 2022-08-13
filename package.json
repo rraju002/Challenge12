@@ -1,27 +1,27 @@
 {
-    "name": "12-mysql-employee-tracker",
+    "name": "The-Employee-Tracker",
     "version": "1.0.0",
     "description": "",
     "main": "server.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node server.js"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/EdenKhaos/12-mysql-employee-tracker.git"
+        "type": "git",
+        "url": "git+https://github.com/EdenKhaos/12-mysql-employee-tracker.git"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/EdenKhaos/12-mysql-employee-tracker/issues"
+        "url": "https://github.com/EdenKhaos/12-mysql-employee-tracker/issues"
     },
-    "homepage": "https://github.com/EdenKhaos/12-mysql-employee-tracker#readme",
+    "homepage": "https://github.com/rraju002/Challenge12/blob/main/README.md",
     "dependencies": {
-      "console.table": "^0.10.0",
-      "inquirer": "^7.3.3",
-      "mysql": "^2.18.1"
-    },
-    "devDependencies": {}
-  }
+        "console.table": "^0.10.0",
+        "inquirer": "^7.3.3",
+        "mysql": "^2.18.1",
+        "mysql2": "^2.3.3"
+    }
+}
